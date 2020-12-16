@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
     name = "msodumper",
-    version = "0.3.0",
+    version = "0.3.0.1",
     packages = ['msodumper'],
     scripts = ['ppt-dump.py'],
     data_files=[('man/man1', ['man/ppt-dump.py.1'])],

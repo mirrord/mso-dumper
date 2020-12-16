@@ -109,7 +109,7 @@ def main (args):
                     set([int(val) for val in globals.params.dumpedIds if val])
             else:
                 error("unknown option %s\n"%opt)
-                usage()
+                usage('ppt-dump.py')
 
     except getopt.GetoptError:
         error("error parsing input options\n")
