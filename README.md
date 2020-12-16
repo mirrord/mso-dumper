@@ -1,0 +1,1 @@
+this is an attempt to fix some of the bugs in the original mso-dumper from LibreOffice.
